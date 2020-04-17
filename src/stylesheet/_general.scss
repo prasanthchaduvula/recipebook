@@ -1,0 +1,40 @@
+.app {
+  position: relative;
+  height: 100vh;
+}
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+.main-section {
+  overflow: scroll;
+  height: calc(100vh - 120px);
+}
+.loader-box {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loaderlogo {
+  pointer-events: none;
+  animation: spin 2s linear infinite;
+}
+.close-btn-box {
+  position: absolute;
+  z-index: 5;
+  background: whitesmoke;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: block;
+}
+.close-btn {
+  width: 2rem;
+  color: black;
+  fill: currentColor;
+  height: 2rem;
+  line-height: 1.5;
+  background-color: transparent;
+  cursor: pointer;
+}

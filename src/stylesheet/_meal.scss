@@ -1,0 +1,45 @@
+.meal-img {
+  width: 20rem;
+  height: fit-content;
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+  }
+}
+.meal-subhead {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin: 1rem 0 0.6rem 0;
+  letter-spacing: 0.04rem;
+  margin: 1rem 0;
+}
+.meal {
+  display: flex;
+  margin: 2rem 0;
+}
+.meal-items {
+  margin-left: 1rem;
+}
+.meal-subhead {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+}
+.ingradinets {
+  margin: 0.7rem 0;
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+}
+.meal-inst-para {
+  line-height: 1.5;
+  margin: 1rem 0;
+  color: black;
+  letter-spacing: 0.06rem;
+  font-size: 1rem;
+  font-weight: 400;
+}

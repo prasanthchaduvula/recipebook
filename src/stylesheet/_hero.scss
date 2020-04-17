@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.hero-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  color: #3bade4;
+  line-height: 1.25;
+}
+.hero-subtext {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 0.04rem;
+  margin: 0.5rem 0;
+}
